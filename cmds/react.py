@@ -38,5 +38,12 @@ class React(Cog_Extension):
     async def hiten(self,ctx):
         hiten_pic = random.choice(jdata['hiten'])   
         await ctx.send(hiten_pic)
+
+    @commands.command()
+    async def A(self,ctx):
+        gura = random.randint(1,26)
+        rgura = discord.File(f'C:\\Users\\USER\\Documents\\GitHub\\discord_bot-testng\\gura\\{gura}.jpg')
+        await ctx.send(file = rgura)
+
 def setup(bot):
     bot.add_cog(React(bot))
