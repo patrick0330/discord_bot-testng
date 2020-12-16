@@ -8,8 +8,8 @@ import os
 with open('setting.json',mode = 'r',encoding='utf8') as jfile:
     jdata = json.load(jfile)
 
-intents = discord.Intents.default()
-intents.members = True
+intents = discord.Intents.all()
+
 
 
 client = discord.Client(intents=intents)
