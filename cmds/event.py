@@ -23,7 +23,13 @@ class Event(Cog_Extension):
 
     @commands.Cog.listener()
     async def on_message(self,msg):
-        for keyword in jdata['keywords'].keys():
+        # print(msg.content)
+        if msg.content == "<@!787751671538778122>":
+            embed=discord.Embed()
+            embed.add_field(name="Hi I'm Test bot", value="My prefix here is !! .type `!!help` for more info", inline=False)
+            await msg.channel.send(embed=embed)
+            return
+        for keyword in jdata['keywords'].keys():            
             if msg.content == keyword:
                 await msg.channel.send(jdata['keywords'][keyword])
     
