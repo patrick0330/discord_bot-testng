@@ -1,40 +1,61 @@
 {
-    "TOKEN":"Nzg3NzUxNjcxNTM4Nzc4MTIy.X9Zg6g.lFTZwAoD2t9eXOyVNw9N86bsmQw",
-
-    "JoinLeaveLog":"787884261067718667",
-
-    "ahegao":"C:\\Users\\USER\\Documents\\GitHub\\discord_bot-testng\\pic\\hehe.jpg",
-
-    "avatar":"C:\\Users\\USER\\Documents\\GitHub\\discord_bot-testng\\pic\\avatar.jpg",
-
-    "random_pic":["C:\\Users\\USER\\Documents\\GitHub\\discord_bot-testng\\random_pic\\1.gif","C:\\Users\\USER\\Documents\\GitHub\\discord_bot-testng\\random_pic\\2.gif"
-        ,"C:\\Users\\USER\\Documents\\GitHub\\discord_bot-testng\\random_pic\\3.gif","C:\\Users\\USER\\Documents\\GitHub\\discord_bot-testng\\random_pic\\4.gif"
-        ,"C:\\Users\\USER\\Documents\\GitHub\\discord_bot-testng\\random_pic\\5.gif","C:\\Users\\USER\\Documents\\GitHub\\discord_bot-testng\\random_pic\\6.gif"
-        ,"C:\\Users\\USER\\Documents\\GitHub\\discord_bot-testng\\random_pic\\7.gif","C:\\Users\\USER\\Documents\\GitHub\\discord_bot-testng\\random_pic\\8.gif"
-        ,"C:\\Users\\USER\\Documents\\GitHub\\discord_bot-testng\\random_pic\\9.gif","C:\\Users\\USER\\Documents\\GitHub\\discord_bot-testng\\random_pic\\10.gif"
-        ,"C:\\Users\\USER\\Documents\\GitHub\\discord_bot-testng\\random_pic\\11.gif","C:\\Users\\USER\\Documents\\GitHub\\discord_bot-testng\\random_pic\\12.gif"
-        ,"C:\\Users\\USER\\Documents\\GitHub\\discord_bot-testng\\random_pic\\13.gif","C:\\Users\\USER\\Documents\\GitHub\\discord_bot-testng\\random_pic\\14.gif"
-        ,"C:\\Users\\USER\\Documents\\GitHub\\discord_bot-testng\\random_pic\\15.gif","C:\\Users\\USER\\Documents\\GitHub\\discord_bot-testng\\random_pic\\16.gif"
-        ,"C:\\Users\\USER\\Documents\\GitHub\\discord_bot-testng\\random_pic\\17.gif","C:\\Users\\USER\\Documents\\GitHub\\discord_bot-testng\\random_pic\\18.gif"
-        ,"C:\\Users\\USER\\Documents\\GitHub\\discord_bot-testng\\random_pic\\19.gif","C:\\Users\\USER\\Documents\\GitHub\\discord_bot-testng\\random_pic\\20.gif"
-        ,"C:\\Users\\USER\\Documents\\GitHub\\discord_bot-testng\\random_pic\\21.gif","C:\\Users\\USER\\Documents\\GitHub\\discord_bot-testng\\random_pic\\22.gif"
-        ,"C:\\Users\\USER\\Documents\\GitHub\\discord_bot-testng\\random_pic\\23.gif","C:\\Users\\USER\\Documents\\GitHub\\discord_bot-testng\\random_pic\\24.gif"
-        ,"C:\\Users\\USER\\Documents\\GitHub\\discord_bot-testng\\random_pic\\25.gif","C:\\Users\\USER\\Documents\\GitHub\\discord_bot-testng\\random_pic\\26.gif"
-        ,"C:\\Users\\USER\\Documents\\GitHub\\discord_bot-testng\\random_pic\\27.gif","C:\\Users\\USER\\Documents\\GitHub\\discord_bot-testng\\random_pic\\28.gif"
-        ,"C:\\Users\\USER\\Documents\\GitHub\\discord_bot-testng\\random_pic\\29.gif","C:\\Users\\USER\\Documents\\GitHub\\discord_bot-testng\\random_pic\\30.gif"
-        ,"C:\\Users\\USER\\Documents\\GitHub\\discord_bot-testng\\random_pic\\31.gif","C:\\Users\\USER\\Documents\\GitHub\\discord_bot-testng\\random_pic\\32.gif"
-        ,"C:\\Users\\USER\\Documents\\GitHub\\discord_bot-testng\\random_pic\\33.gif","C:\\Users\\USER\\Documents\\GitHub\\discord_bot-testng\\random_pic\\34.jpg"],
-
-    "hiten":["https://pixiv.cat/85575645.jpg","https://pixiv.cat/84227877.jpg","https://pixiv.cat/84073373.jpg","https://pixiv.cat/82301307.jpg",
-        "https://pixiv.cat/80840501.jpg","https://pixiv.cat/79834843.jpg"],
-    
-    "keywords" : {"pepelaugh":"https://blog.cdn.own3d.tv/resize=fit:crop,height:400,width:600/tbv2RYWpReqNtof2dD0U","distT":"https://static-cdn.jtvnw.net/emoticons/v1/302662931/3.0",
-        "distlul":"https://static-cdn.jtvnw.net/emoticons/v1/118086/3.0","thonk":"https://cdn.betterttv.net/emote/585231dd58af204561cd6036/3x",
-        "confused":"https://cdn.betterttv.net/emote/5d5d9fe322f52e1d9b41ac91/3x","pepega":"https://www.streamscheme.com/wp-content/uploads/2020/04/pepega.png",
-        "rdrrAs":"https://static-cdn.jtvnw.net/emoticons/v1/51600/3.0"}
-
-
-
-
-
+    "TOKEN": "Nzg3NzUxNjcxNTM4Nzc4MTIy.X9Zg6g.lFTZwAoD2t9eXOyVNw9N86bsmQw",
+    "JoinLeaveLog": "787884261067718667",
+    "ahegao": "C:\\Users\\USER\\Documents\\GitHub\\discord_bot-testng\\pic\\hehe.jpg",
+    "avatar": "C:\\Users\\USER\\Documents\\GitHub\\discord_bot-testng\\pic\\avatar.jpg",
+    "random_pic": [
+        "C:\\Users\\USER\\Documents\\GitHub\\discord_bot-testng\\random_pic\\1.gif",
+        "C:\\Users\\USER\\Documents\\GitHub\\discord_bot-testng\\random_pic\\2.gif",
+        "C:\\Users\\USER\\Documents\\GitHub\\discord_bot-testng\\random_pic\\3.gif",
+        "C:\\Users\\USER\\Documents\\GitHub\\discord_bot-testng\\random_pic\\4.gif",
+        "C:\\Users\\USER\\Documents\\GitHub\\discord_bot-testng\\random_pic\\5.gif",
+        "C:\\Users\\USER\\Documents\\GitHub\\discord_bot-testng\\random_pic\\6.gif",
+        "C:\\Users\\USER\\Documents\\GitHub\\discord_bot-testng\\random_pic\\7.gif",
+        "C:\\Users\\USER\\Documents\\GitHub\\discord_bot-testng\\random_pic\\8.gif",
+        "C:\\Users\\USER\\Documents\\GitHub\\discord_bot-testng\\random_pic\\9.gif",
+        "C:\\Users\\USER\\Documents\\GitHub\\discord_bot-testng\\random_pic\\10.gif",
+        "C:\\Users\\USER\\Documents\\GitHub\\discord_bot-testng\\random_pic\\11.gif",
+        "C:\\Users\\USER\\Documents\\GitHub\\discord_bot-testng\\random_pic\\12.gif",
+        "C:\\Users\\USER\\Documents\\GitHub\\discord_bot-testng\\random_pic\\13.gif",
+        "C:\\Users\\USER\\Documents\\GitHub\\discord_bot-testng\\random_pic\\14.gif",
+        "C:\\Users\\USER\\Documents\\GitHub\\discord_bot-testng\\random_pic\\15.gif",
+        "C:\\Users\\USER\\Documents\\GitHub\\discord_bot-testng\\random_pic\\16.gif",
+        "C:\\Users\\USER\\Documents\\GitHub\\discord_bot-testng\\random_pic\\17.gif",
+        "C:\\Users\\USER\\Documents\\GitHub\\discord_bot-testng\\random_pic\\18.gif",
+        "C:\\Users\\USER\\Documents\\GitHub\\discord_bot-testng\\random_pic\\19.gif",
+        "C:\\Users\\USER\\Documents\\GitHub\\discord_bot-testng\\random_pic\\20.gif",
+        "C:\\Users\\USER\\Documents\\GitHub\\discord_bot-testng\\random_pic\\21.gif",
+        "C:\\Users\\USER\\Documents\\GitHub\\discord_bot-testng\\random_pic\\22.gif",
+        "C:\\Users\\USER\\Documents\\GitHub\\discord_bot-testng\\random_pic\\23.gif",
+        "C:\\Users\\USER\\Documents\\GitHub\\discord_bot-testng\\random_pic\\24.gif",
+        "C:\\Users\\USER\\Documents\\GitHub\\discord_bot-testng\\random_pic\\25.gif",
+        "C:\\Users\\USER\\Documents\\GitHub\\discord_bot-testng\\random_pic\\26.gif",
+        "C:\\Users\\USER\\Documents\\GitHub\\discord_bot-testng\\random_pic\\27.gif",
+        "C:\\Users\\USER\\Documents\\GitHub\\discord_bot-testng\\random_pic\\28.gif",
+        "C:\\Users\\USER\\Documents\\GitHub\\discord_bot-testng\\random_pic\\29.gif",
+        "C:\\Users\\USER\\Documents\\GitHub\\discord_bot-testng\\random_pic\\30.gif",
+        "C:\\Users\\USER\\Documents\\GitHub\\discord_bot-testng\\random_pic\\31.gif",
+        "C:\\Users\\USER\\Documents\\GitHub\\discord_bot-testng\\random_pic\\32.gif",
+        "C:\\Users\\USER\\Documents\\GitHub\\discord_bot-testng\\random_pic\\33.gif",
+        "C:\\Users\\USER\\Documents\\GitHub\\discord_bot-testng\\random_pic\\34.jpg"
+    ],
+    "hiten": [
+        "https://pixiv.cat/85575645.jpg",
+        "https://pixiv.cat/84227877.jpg",
+        "https://pixiv.cat/84073373.jpg",
+        "https://pixiv.cat/82301307.jpg",
+        "https://pixiv.cat/80840501.jpg",
+        "https://pixiv.cat/79834843.jpg"
+    ],
+    "keywords": {
+        "pepelaugh": "https://cdn.betterttv.net/emote/59b73909b27c823d5b1f6052/3x",
+        "distT": "https://static-cdn.jtvnw.net/emoticons/v1/302662931/3.0",
+        "distlul": "https://static-cdn.jtvnw.net/emoticons/v1/118086/3.0",
+        "thonk": "https://cdn.betterttv.net/emote/585231dd58af204561cd6036/3x",
+        "confused": "https://cdn.betterttv.net/emote/5d5d9fe322f52e1d9b41ac91/3x",
+        "pepega": "https://www.streamscheme.com/wp-content/uploads/2020/04/pepega.png",
+        "rdrrAs": "https://static-cdn.jtvnw.net/emoticons/v1/51600/3.0",
+        "\u6688\u8239\u85e5": "https://parts.ippin.com/optimized_images/shops/35/fee2cc367e06269d861c4207060bb5f4.jpg"
+    },
+    "time": "Saturday 19:00"
 }
