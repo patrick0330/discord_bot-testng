@@ -45,13 +45,19 @@ class Main(Cog_Extension):
 
     @commands.command()
     async def random_squad(self,ctx):
-        online = []        
+        online = []     
         for member in ctx.guild.members:
-            if str(member.status) == 'online':                
-                online.append(member)
-        random_online = random.sample(online,k = 15)
-        for i in random_online:
-            print(i)
+            if (str(member.status) == 'online' or str(member.status) == 'idle') and member.bot == False:                
+                online.append(member.name)
+        random_online = random.sample(online,k = 4)
+       
+        for squad in range(2):
+            a = random.sample(random_online,k = 2)           
+            await ctx.send(f'Team {squad + 1} is {a}')             
+            
+            for name in a:
+                random_online.remove(name)
+            
       
             
        

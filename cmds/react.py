@@ -16,8 +16,6 @@ jojo = im.get_album('j3QcZgp')
 
 
 
-
-
 class React(Cog_Extension):
     @commands.command()
     async def hi(self,ctx):
@@ -85,6 +83,33 @@ class React(Cog_Extension):
     async def getavatar(self,ctx,*,member:discord.Member=None):
         userAvatarUrl = member.avatar_url
         await ctx.send(userAvatarUrl)
+    
+    @commands.group()
+    async def wu(self,ctx):
+        # pass
+        if ctx.message.content.endswith("wu"):
+            await ctx.send("This command needs an argument!")
+        else:
+            pass
+    @wu.command()
+    async def laugh(self,ctx):
+        wulaugh = discord.File(f'C:\\Users\\USER\\Documents\\GitHub\\discord_bot-testng\\Wu\\2.gif')
+        await ctx.send(file = wulaugh)
+
+    @wu.command()
+    async def yareyare(self,ctx):
+        wu = discord.File(f'C:\\Users\\USER\\Documents\\GitHub\\discord_bot-testng\\Wu\\3.jpg')
+        await ctx.send(file = wu)
+
+    @wu.command()
+    async def evil(self,ctx):
+        wu = discord.File(f'C:\\Users\\USER\\Documents\\GitHub\\discord_bot-testng\\Wu\\1.jpg')
+        await ctx.send(file = wu)
+    
+    @commands.command()
+    async def sleep(self,ctx):
+        wusleep = discord.File(f'C:\\Users\\USER\\Documents\\GitHub\\discord_bot-testng\\Wu\\4.jpg')
+        await ctx.send(file = wusleep)
 
 
 def setup(bot):
