@@ -11,7 +11,6 @@ with open('setting.json',mode = 'r',encoding='utf8') as jfile:
 intents = discord.Intents.all()
 
 
-
 client = discord.Client(intents=intents)
 bot = commands.Bot(command_prefix='!!',intents = intents)
 
