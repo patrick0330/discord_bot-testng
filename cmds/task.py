@@ -25,7 +25,7 @@ class Task(Cog_Extension):
                 if now_time == jdata['time']:                                        
                     if(self.counter <= 2):
                         # await self.channel.send("<@!239008552205811714> 是個噁男!!")
-                        await self.channel.send("<@!239008552205811714> <@!344871743749357592> <@!239013040786243585> <@!391837295612919818> <@!330957184542310401> 該打殲滅作戰囉!!")
+                        await self.channel.send("<@!239008552205811714> <@!344871743749357592> <@!239013040786243585> <@!391837295612919818> 該打殲滅作戰囉!!")
                         self.counter += 1                    
                     # if(self.counter > 5 and self.counter < 7):
                     #     await self.channel.send("https://static-cdn.jtvnw.net/emoticons/v1/118086/3.0")

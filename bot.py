@@ -33,6 +33,8 @@ async def reload(ctx,extension):
     bot.reload_extension(f'cmds.{extension}')
     await ctx.send(f'Reloaded {extension} done.')
 
+
+
 for filename in os.listdir('./cmds'):
     if filename.endswith('.py'):
         bot.load_extension(f'cmds.{filename[:-3]}')
@@ -41,3 +43,4 @@ if __name__ == "__main__" :
     bot.run(jdata['TOKEN'])
 
 
+ 

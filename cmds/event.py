@@ -26,7 +26,7 @@ class Event(Cog_Extension):
         # print(msg.content)
         if msg.content == "<@!787751671538778122>":
             embed=discord.Embed()
-            embed.add_field(name="Hi I'm Test bot", value="My prefix here is `!!`. type `!!help` for more infos.\nFor those who wants to play music, please use the prefix `?` and type `?help` for more commands.", inline=False)
+            embed.add_field(name="Hi I'm Test bot", value="My prefix here is `!!`. type `!!cmdhelp` for more infos.\nFor those who wants to play music, please use the prefix `?` and type `?help` for more commands.", inline=False)
             await msg.channel.send(embed=embed)
             return
         for keyword in jdata['keywords'].keys():            
@@ -34,14 +34,17 @@ class Event(Cog_Extension):
                 await msg.channel.send(jdata['keywords'][keyword])
     @commands.Cog.listener()
     async def on_command_error(self,ctx,error):
+        if hasattr(ctx.command,'on_error'):
+            return
         if isinstance(error,commands.errors.MissingRequiredArgument):
             await ctx.send("This command needs argument(s)!")
         elif isinstance(error,commands.errors.CommandNotFound):
             await ctx.send("This command does not exist!")
         else:
             # print(error)
-            await ctx.send("Error!")
+            await ctx.send(error)
 
+    
     
 def setup(bot):
     bot.add_cog(Event(bot))
