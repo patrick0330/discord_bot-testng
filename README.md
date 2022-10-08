@@ -1,6 +1,9 @@
 # discord_bot-testng
 
 To use this bot
+
+Put your token in bot.py and type
+
 ```sh  
 python3 bot.py
 ```
