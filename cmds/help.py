@@ -31,7 +31,7 @@ class Help(Cog_Extension):
         embed.add_field(name="`!!jojo`", value="send random jojo pictures", inline=False)
         embed.add_field(name="`!!rgif`", value="send random gifs", inline=False)
         embed.add_field(name="`!!rimg`", value="send random images", inline=False)
-        embed.add_field(name="`!!wu`", value="send some wu pictures(including `laugh` `evil` `sleep` `yareyare`)", inline=False)
+        #embed.add_field(name="`!!wu`", value="send some wu pictures(including `laugh` `evil` `sleep` `yareyare`)", inline=False)
         embed.add_field(name="`!!好油喔`", value="send a picture to say someone is a weeb", inline=False)
         embed.add_field(name="`!!好宅喔`", value="send a picture to say someone is a weeb", inline=False)
         embed.add_field(name="`!!統神`", value="send a picture about asiagodton", inline=False)
