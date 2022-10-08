@@ -6,6 +6,7 @@ python3 bot.py
 ```
 
 Check commands 
+
 Type this in discord
 ```sh
 !!help
