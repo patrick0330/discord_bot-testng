@@ -19,7 +19,7 @@ python3 bot.py
 
 Invite the bot 
 
-Go to Oauth2->URL Generator Click "Bot" option in scope and copy the url to invite the bot to your server
+Go to Oauth2->URL Generator, Click "Bot" option in Scope and "Administrator" in Bot Permissions,copy the url to invite the bot to your server
 
 Once it is in your server you can Check its commands 
 
